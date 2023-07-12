@@ -1,0 +1,1844 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Melee_Down_Attack_Release
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 75.344, y: 26.695, z: -81.251}
+        inSlope: {x: 30.518654, y: 115.78124, z: 89.680016}
+        outSlope: {x: 30.518654, y: 115.78124, z: 89.680016}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.042105265
+        value: {x: 76.629, y: 31.57, z: -77.475}
+        inSlope: {x: -1420.9984, y: 3794.455, z: 1889.1702}
+        outSlope: {x: -1420.9984, y: 3794.455, z: 1889.1702}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06315789
+        value: {x: 16.155, y: 188.899, z: 0.181}
+        inSlope: {x: -2562.6729, y: 4975.8394, z: 1227.5427}
+        outSlope: {x: -2562.6729, y: 4975.8394, z: 1227.5427}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.07368421
+        value: {x: -7.559, y: 214.989, z: -12.804}
+        inSlope: {x: -1950.4446, y: 2322.1323, z: -1075.5897}
+        outSlope: {x: -1950.4446, y: 2322.1323, z: -1075.5897}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.08421053
+        value: {x: -24.907, y: 237.78601, z: -22.463}
+        inSlope: {x: -939.4545, y: 2520.0166, z: -1496.2975}
+        outSlope: {x: -939.4545, y: 2520.0166, z: -1496.2975}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.094736844
+        value: {x: -27.337, y: 268.042, z: -44.305}
+        inSlope: {x: -28.508942, y: 221.68213, z: -2153.983}
+        outSlope: {x: -28.508942, y: 221.68213, z: -2153.983}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10526316
+        value: {x: -27.396893, y: 242.453, z: -67.81}
+        inSlope: {x: 16.450897, y: -1243.0612, z: -981.1194}
+        outSlope: {x: 16.450897, y: -1243.0612, z: -981.1194}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333337, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.17894737
+        value: {x: -17.563087, y: 238.388, z: -47.861}
+        inSlope: {x: 217.23578, y: -302.44864, z: 578.26416}
+        outSlope: {x: 217.23578, y: -302.44864, z: 578.26416}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333337, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333316, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.2631579
+        value: {x: 1.94, y: 192.095, z: 26.732}
+        inSlope: {x: 202.559, y: -295.35486, z: 672.4101}
+        outSlope: {x: 202.559, y: -295.35486, z: 672.4101}
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: {x: 0.33333343, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.30526316
+        value: {x: 15.307, y: 182.768, z: 47.966}
+        inSlope: {x: 222.399, y: -207.7136, z: 401.35126}
+        outSlope: {x: 222.399, y: -207.7136, z: 401.35126}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.36842105
+        value: {x: 23.349, y: 170.521, z: 66.812}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.44210526
+        value: {x: 18.921, y: 177.425, z: 74.946}
+        inSlope: {x: -55.856335, y: 50.354004, z: 0.1359252}
+        outSlope: {x: -55.856335, y: 50.354004, z: 0.1359252}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5263158
+        value: {x: 13.684, y: 178.239, z: 63.615}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Baseball Bat/Left Hand Target
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 18.312, y: 74.15, z: -145.765}
+        inSlope: {x: 5.652475, y: 41.111134, z: 39.021378}
+        outSlope: {x: 5.652475, y: 41.111134, z: 39.021378}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.042105265
+        value: {x: 18.55, y: 75.881, z: -144.122}
+        inSlope: {x: -1142.7314, y: 1824.511, z: 1611.7345}
+        outSlope: {x: -1142.7314, y: 1824.511, z: 1611.7345}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06315789
+        value: {x: -29.684, y: 151.837, z: -77.081}
+        inSlope: {x: -2469.1929, y: 3017.485, z: 1513.9915}
+        outSlope: {x: -2469.1929, y: 3017.485, z: 1513.9915}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.07368421
+        value: {x: -57.55, y: 177.385, z: -78.728}
+        inSlope: {x: -2133.3672, y: 3020.2861, z: -1284.5892}
+        outSlope: {x: -2133.3672, y: 3020.2861, z: -1284.5892}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.08421053
+        value: {x: -74.597, y: 215.422, z: -104.125}
+        inSlope: {x: -748.5994, y: 6311.373, z: -4839.49}
+        outSlope: {x: -748.5994, y: 6311.373, z: -4839.49}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.094736844
+        value: {x: -73.31, y: 310.256, z: -180.612}
+        inSlope: {x: 275.12003, y: 4994.3413, z: -3995.3206}
+        outSlope: {x: 275.12003, y: 4994.3413, z: -3995.3206}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10526316
+        value: {x: -68.805, y: 320.566, z: -188.237}
+        inSlope: {x: 148.54599, y: 111.875946, z: -102.19293}
+        outSlope: {x: 148.54599, y: 111.875946, z: -102.19293}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.17894737
+        value: {x: -78.449, y: 264.883, z: -149.922}
+        inSlope: {x: 214.88776, y: -879.36584, z: 640.98425}
+        outSlope: {x: 214.88776, y: -879.36584, z: 640.98425}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.30526316
+        value: {x: -7.629, y: 138.184, z: -53.672}
+        inSlope: {x: 312.74, y: -492.88544, z: 382.10245}
+        outSlope: {x: 312.74, y: -492.88544, z: 382.10245}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5263158
+        value: {x: 6.7, y: 142, z: -53.18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Baseball Bat/Right Hand Target
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.01238, y: 0.00853, z: -0.00797}
+        inSlope: {x: 0.013774994, y: -0.02755001, z: 0.067449994}
+        outSlope: {x: 0.013774994, y: -0.02755001, z: 0.067449994}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.042105265
+        value: {x: -0.0118, y: 0.00737, z: -0.00513}
+        inSlope: {x: 0.27597505, y: -0.31041253, z: -0.07813753}
+        outSlope: {x: 0.27597505, y: -0.31041253, z: -0.07813753}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06315789
+        value: {x: -0.00047, y: -0.00512, z: -0.00984}
+        inSlope: {x: 0.28903756, y: -0.29521254, z: -0.2139875}
+        outSlope: {x: 0.28903756, y: -0.29521254, z: -0.2139875}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.07368421
+        value: {x: -0.00005, y: -0.00509, z: -0.01199}
+        inSlope: {x: 0.08359997, y: -0.10259995, z: -0.065075025}
+        outSlope: {x: 0.08359997, y: -0.10259995, z: -0.065075025}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.08421053
+        value: {x: 0.00129, y: -0.00728, z: -0.01121}
+        inSlope: {x: 0.2413, y: -0.33392498, z: 0.037049953}
+        outSlope: {x: 0.2413, y: -0.33392498, z: 0.037049953}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.094736844
+        value: {x: 0.00503, y: -0.01212, z: -0.01121}
+        inSlope: {x: 0.14820004, y: -0.20615003, z: -0.19047503}
+        outSlope: {x: 0.14820004, y: -0.20615003, z: -0.19047503}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10526316
+        value: {x: 0.00441, y: -0.01162, z: -0.01522}
+        inSlope: {x: -0.033521436, y: 0.02890715, z: -0.17256075}
+        outSlope: {x: -0.033521436, y: 0.02890715, z: -0.17256075}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.17894737
+        value: {x: 0.00381, y: -0.01086, z: -0.01258}
+        inSlope: {x: -0.016718304, y: 0.030629016, z: 0.058883034}
+        outSlope: {x: -0.016718304, y: 0.030629016, z: 0.058883034}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.2631579
+        value: {x: 0.00168, y: -0.00657, z: -0.00568}
+        inSlope: {x: -0.0472625, y: 0, z: 0.011399996}
+        outSlope: {x: -0.0472625, y: 0, z: 0.011399996}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.30526316
+        value: {x: -0.00216, y: -0.00731, z: -0.00532}
+        inSlope: {x: -0.062066674, y: 0.0076791737, z: 0}
+        outSlope: {x: -0.062066674, y: 0.0076791737, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.36842105
+        value: {x: -0.00424, y: -0.00523, z: -0.00587}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.44210526
+        value: {x: -0.00423, y: -0.006, z: -0.00514}
+        inSlope: {x: 0.009576666, y: -0.011899999, z: 0.009436666}
+        outSlope: {x: 0.009576666, y: -0.011899999, z: 0.009436666}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5263158
+        value: {x: -0.00238, y: -0.00719, z: -0.00438}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Baseball Bat/Left Hand Target
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00655, y: 0.01218, z: -0.01431}
+        inSlope: {x: 0.009262504, y: -0.021849988, z: 0.06745}
+        outSlope: {x: 0.009262504, y: -0.021849988, z: 0.06745}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.042105265
+        value: {x: -0.00616, y: 0.01126, z: -0.01147}
+        inSlope: {x: 0.11886876, y: -0.18406253, z: 0.13371253}
+        outSlope: {x: 0.11886876, y: -0.18406253, z: 0.13371253}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06315789
+        value: {x: -0.00135, y: 0.00397, z: -0.00726}
+        inSlope: {x: 0.25499582, y: -0.36107916, z: 0.15445419}
+        outSlope: {x: 0.25499582, y: -0.36107916, z: 0.15445419}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.094736844
+        value: {x: 0.00754, y: -0.0079, z: -0.00382}
+        inSlope: {x: 0.13225979, y: -0.17662813, z: 0.054480065}
+        outSlope: {x: 0.13225979, y: -0.17662813, z: 0.054480065}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.17894737
+        value: {x: 0.006108667, y: -0.005994565, z: -0.0038177425}
+        inSlope: {x: -0.028878681, y: 0.038446173, z: 0.0040269075}
+        outSlope: {x: -0.028878681, y: 0.038446173, z: 0.0040269075}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.30526316
+        value: {x: 0.00096, y: 0.00086, z: -0.0028038048}
+        inSlope: {x: -0.019166721, y: 0.025459688, z: 0}
+        outSlope: {x: -0.019166721, y: 0.025459688, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.36842105
+        value: {x: 0.000448736, y: 0.0015337666, z: -0.0028038048}
+        inSlope: {x: 0.0010158451, y: -0.0014991254, z: 0}
+        outSlope: {x: 0.0010158451, y: -0.0014991254, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5263158
+        value: {x: 0.0014964585, y: 0.000120373326, z: -0.0028038048}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Baseball Bat/Right Hand Target
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 95
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 1273298993
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1594904568
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1273298993
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1594904568
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.5263158
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.01238
+        inSlope: 0.013774994
+        outSlope: 0.013774994
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -0.0118
+        inSlope: 0.27597505
+        outSlope: 0.27597505
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -0.00047
+        inSlope: 0.28903756
+        outSlope: 0.28903756
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -0.00005
+        inSlope: 0.08359997
+        outSlope: 0.08359997
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: 0.00129
+        inSlope: 0.2413
+        outSlope: 0.2413
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: 0.00503
+        inSlope: 0.14820004
+        outSlope: 0.14820004
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: 0.00441
+        inSlope: -0.033521436
+        outSlope: -0.033521436
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: 0.00381
+        inSlope: -0.016718304
+        outSlope: -0.016718304
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: 0.00168
+        inSlope: -0.0472625
+        outSlope: -0.0472625
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -0.00216
+        inSlope: -0.062066674
+        outSlope: -0.062066674
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: -0.00424
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: -0.00423
+        inSlope: 0.009576666
+        outSlope: 0.009576666
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: -0.00238
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.00853
+        inSlope: -0.02755001
+        outSlope: -0.02755001
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 0.00737
+        inSlope: -0.31041253
+        outSlope: -0.31041253
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -0.00512
+        inSlope: -0.29521254
+        outSlope: -0.29521254
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -0.00509
+        inSlope: -0.10259995
+        outSlope: -0.10259995
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -0.00728
+        inSlope: -0.33392498
+        outSlope: -0.33392498
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -0.01212
+        inSlope: -0.20615003
+        outSlope: -0.20615003
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: -0.01162
+        inSlope: 0.02890715
+        outSlope: 0.02890715
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -0.01086
+        inSlope: 0.030629016
+        outSlope: 0.030629016
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: -0.00657
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -0.00731
+        inSlope: 0.0076791737
+        outSlope: 0.0076791737
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: -0.00523
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: -0.006
+        inSlope: -0.011899999
+        outSlope: -0.011899999
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: -0.00719
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.00797
+        inSlope: 0.067449994
+        outSlope: 0.067449994
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -0.00513
+        inSlope: -0.07813753
+        outSlope: -0.07813753
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -0.00984
+        inSlope: -0.2139875
+        outSlope: -0.2139875
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -0.01199
+        inSlope: -0.065075025
+        outSlope: -0.065075025
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -0.01121
+        inSlope: 0.037049953
+        outSlope: 0.037049953
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -0.01121
+        inSlope: -0.19047503
+        outSlope: -0.19047503
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: -0.01522
+        inSlope: -0.17256075
+        outSlope: -0.17256075
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -0.01258
+        inSlope: 0.058883034
+        outSlope: 0.058883034
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: -0.00568
+        inSlope: 0.011399996
+        outSlope: 0.011399996
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -0.00532
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: -0.00587
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: -0.00514
+        inSlope: 0.009436666
+        outSlope: 0.009436666
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: -0.00438
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 75.344
+        inSlope: 30.518654
+        outSlope: 30.518654
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 76.629
+        inSlope: -1420.9984
+        outSlope: -1420.9984
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: 16.155
+        inSlope: -2562.6729
+        outSlope: -2562.6729
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -7.559
+        inSlope: -1950.4446
+        outSlope: -1950.4446
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -24.907
+        inSlope: -939.4545
+        outSlope: -939.4545
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -27.337
+        inSlope: -28.508942
+        outSlope: -28.508942
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: 1.94
+        inSlope: 202.559
+        outSlope: 202.559
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 15.307
+        inSlope: 222.399
+        outSlope: 222.399
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: 23.349
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: 18.921
+        inSlope: -55.856335
+        outSlope: -55.856335
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 13.684
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 26.695
+        inSlope: 115.78124
+        outSlope: 115.78124
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 31.57
+        inSlope: 3794.455
+        outSlope: 3794.455
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: 188.899
+        inSlope: 4975.8394
+        outSlope: 4975.8394
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: 214.989
+        inSlope: 2322.1323
+        outSlope: 2322.1323
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: 237.78601
+        inSlope: 2520.0166
+        outSlope: 2520.0166
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: 268.042
+        inSlope: 221.68213
+        outSlope: 221.68213
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: 242.453
+        inSlope: -1243.0612
+        outSlope: -1243.0612
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: 238.388
+        inSlope: -302.44864
+        outSlope: -302.44864
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: 192.095
+        inSlope: -295.35486
+        outSlope: -295.35486
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 182.768
+        inSlope: -207.7136
+        outSlope: -207.7136
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: 170.521
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: 177.425
+        inSlope: 50.354004
+        outSlope: 50.354004
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 178.239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -81.251
+        inSlope: 89.680016
+        outSlope: 89.680016
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -77.475
+        inSlope: 1889.1702
+        outSlope: 1889.1702
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: 0.181
+        inSlope: 1227.5427
+        outSlope: 1227.5427
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -12.804
+        inSlope: -1075.5897
+        outSlope: -1075.5897
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -22.463
+        inSlope: -1496.2975
+        outSlope: -1496.2975
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -44.305
+        inSlope: -2153.983
+        outSlope: -2153.983
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: -67.81
+        inSlope: -981.1194
+        outSlope: -981.1194
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -47.861
+        inSlope: 578.26416
+        outSlope: 578.26416
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2631579
+        value: 26.732
+        inSlope: 672.4101
+        outSlope: 672.4101
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 47.966
+        inSlope: 401.35126
+        outSlope: 401.35126
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: 66.812
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.44210526
+        value: 74.946
+        inSlope: 0.1359252
+        outSlope: 0.1359252
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 63.615
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.00655
+        inSlope: 0.009262504
+        outSlope: 0.009262504
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -0.00616
+        inSlope: 0.11886876
+        outSlope: 0.11886876
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -0.00135
+        inSlope: 0.25499582
+        outSlope: 0.25499582
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: 0.00754
+        inSlope: 0.13225979
+        outSlope: 0.13225979
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: 0.006108667
+        inSlope: -0.028878681
+        outSlope: -0.028878681
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 0.00096
+        inSlope: -0.019166721
+        outSlope: -0.019166721
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 0.0014964585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01218
+        inSlope: -0.021849988
+        outSlope: -0.021849988
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 0.01126
+        inSlope: -0.18406253
+        outSlope: -0.18406253
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: 0.00397
+        inSlope: -0.36107916
+        outSlope: -0.36107916
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -0.0079
+        inSlope: -0.17662813
+        outSlope: -0.17662813
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -0.005994565
+        inSlope: 0.038446173
+        outSlope: 0.038446173
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 0.00086
+        inSlope: 0.025459688
+        outSlope: 0.025459688
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 0.000120373326
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.01431
+        inSlope: 0.06745
+        outSlope: 0.06745
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -0.01147
+        inSlope: 0.13371253
+        outSlope: 0.13371253
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -0.00726
+        inSlope: 0.15445419
+        outSlope: 0.15445419
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -0.00382
+        inSlope: 0.054480065
+        outSlope: 0.054480065
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -0.0038177425
+        inSlope: 0.0040269075
+        outSlope: 0.0040269075
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -0.0028038048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36842105
+        value: -0.0028038048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: -0.0028038048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 18.312
+        inSlope: 5.652475
+        outSlope: 5.652475
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 18.55
+        inSlope: -1142.7314
+        outSlope: -1142.7314
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -29.684
+        inSlope: -2469.1929
+        outSlope: -2469.1929
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -57.55
+        inSlope: -2133.3672
+        outSlope: -2133.3672
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -74.597
+        inSlope: -748.5994
+        outSlope: -748.5994
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -73.31
+        inSlope: 275.12003
+        outSlope: 275.12003
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: -68.805
+        inSlope: 148.54599
+        outSlope: 148.54599
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -78.449
+        inSlope: 214.88776
+        outSlope: 214.88776
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -7.629
+        inSlope: 312.74
+        outSlope: 312.74
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 6.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 74.15
+        inSlope: 41.111134
+        outSlope: 41.111134
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: 75.881
+        inSlope: 1824.511
+        outSlope: 1824.511
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: 151.837
+        inSlope: 3017.485
+        outSlope: 3017.485
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: 177.385
+        inSlope: 3020.2861
+        outSlope: 3020.2861
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: 215.422
+        inSlope: 6311.373
+        outSlope: 6311.373
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: 310.256
+        inSlope: 4994.3413
+        outSlope: 4994.3413
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: 320.566
+        inSlope: 111.875946
+        outSlope: 111.875946
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: 264.883
+        inSlope: -879.36584
+        outSlope: -879.36584
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: 138.184
+        inSlope: -492.88544
+        outSlope: -492.88544
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: 142
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -145.765
+        inSlope: 39.021378
+        outSlope: 39.021378
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.042105265
+        value: -144.122
+        inSlope: 1611.7345
+        outSlope: 1611.7345
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06315789
+        value: -77.081
+        inSlope: 1513.9915
+        outSlope: 1513.9915
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.07368421
+        value: -78.728
+        inSlope: -1284.5892
+        outSlope: -1284.5892
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.08421053
+        value: -104.125
+        inSlope: -4839.49
+        outSlope: -4839.49
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.094736844
+        value: -180.612
+        inSlope: -3995.3206
+        outSlope: -3995.3206
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.10526316
+        value: -188.237
+        inSlope: -102.19293
+        outSlope: -102.19293
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.17894737
+        value: -149.922
+        inSlope: 640.98425
+        outSlope: 640.98425
+        tangentMode: 34
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30526316
+        value: -53.672
+        inSlope: 382.10245
+        outSlope: 382.10245
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5263158
+        value: -53.18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Baseball Bat/Left Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Baseball Bat/Right Hand Target
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0.042105265
+    functionName: TriggerAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
