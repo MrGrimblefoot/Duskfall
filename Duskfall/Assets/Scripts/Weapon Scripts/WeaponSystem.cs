@@ -262,7 +262,7 @@ public class WeaponSystem : MonoBehaviour
     {
         if (currentWeaponData.isPistol)
         {
-            GameObject sight = currentWeapon.transform.Find("Anchor/T77/Reflex Sight").gameObject;
+            GameObject sight = currentWeapon.transform.Find("Anchor/SecondaryAnchor/T77/Reflex Sight").gameObject;
             if (hasSight) { sight.SetActive(true); }
             else { sight.SetActive(false); }
         }
