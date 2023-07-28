@@ -16,7 +16,6 @@ public class BobAndSway : MonoBehaviour
     [SerializeField] private bool usePositionalBob;
     [SerializeField] private bool useRotationalBob;
 
-
     Vector3 swayPos;
     Vector3 swayEulerRot;
     private float speedCurve;
@@ -28,10 +27,6 @@ public class BobAndSway : MonoBehaviour
     Vector2 moveInput;
     Vector2 lookInput;
 
-    [SerializeField] private Transform hipPosObject;
-    [SerializeField] private Transform aimPosObject;
-    private Vector3 hipPos;
-    private Vector3 aimPos;
     Quaternion originalRot;
 
     void Start()
@@ -42,13 +37,6 @@ public class BobAndSway : MonoBehaviour
         weaponSystem = movement.GetComponent<WeaponSystem>();
         weaponData = weaponSystem.currentWeaponData;
         originalRot = transform.localRotation;
-        hipPos = hipPosObject.transform.localPosition;
-        aimPos = weaponSystem.hasSight ?
-            new Vector3(
-                aimPosObject.transform.localPosition.x, 
-                aimPosObject.transform.localPosition.y + weaponData.sightOffset, 
-                aimPosObject.transform.localPosition.z)
-                                       : aimPosObject.transform.localPosition;
     }
 
     void Update()
@@ -60,7 +48,7 @@ public class BobAndSway : MonoBehaviour
 
         if (usePositionalBob || useRotationalBob)
         {
-            speedCurve += Time.deltaTime * (movement.isGrounded ? rb.velocity.magnitude : 1f) + (movement.isMoving ? 0.01f * weaponData.movementBobSpeed : 0.01f * weaponData.idleBobSpeed);
+            speedCurve += ((movement.isGrounded ? rb.velocity.magnitude : 1f) + (movement.isMoving ? 0.01f * weaponData.movementBobSpeed : 0.01f * weaponData.idleBobSpeed)) * Time.deltaTime;
         }
 
         PositionalBob();
@@ -94,7 +82,9 @@ public class BobAndSway : MonoBehaviour
     {
         if (!useRotationalSway) { swayEulerRot = Vector3.zero; return; }
 
-        Vector3 invertLook = lookInput * (weaponSystem.aiming ? (weaponData.rotationalAimSwayIntensity * 0.01f) : (weaponData.rotationalSwayIntensity * 0.01f));
+        // Use Time.deltaTime to control the rotation speed
+        float swayIntensity = weaponSystem.aiming ? (weaponData.rotationalAimSwayIntensity * 0.01f) : (weaponData.rotationalSwayIntensity * 0.01f);
+        Vector3 invertLook = lookInput * (swayIntensity * Time.deltaTime * (weaponSystem.aiming ? weaponData.rotationalAimSwayIntensity : weaponData.rotationalSwayIntensity));
         invertLook.x = Mathf.Clamp(invertLook.x, -weaponData.maxSwayRotation, weaponData.maxSwayRotation);
         invertLook.y = Mathf.Clamp(invertLook.y, -weaponData.maxSwayRotation, weaponData.maxSwayRotation);
 
@@ -125,13 +115,8 @@ public class BobAndSway : MonoBehaviour
     {
         transform.localPosition =
             Vector3.Lerp(transform.localPosition,
-            swayPos + (!weaponData.isMelee ? (weaponSystem.aiming ? bobPos / weaponData.ADSPositionalBobDampening : bobPos)/* + (weaponSystem.aiming ? aimPos : hipPos)*/ : bobPos),
+            swayPos + (!weaponData.isMelee ? (weaponSystem.aiming ? bobPos / weaponData.ADSPositionalBobDampening : bobPos) : bobPos),
             Time.deltaTime * weaponData.ADSSpeed);
-
-        //transform.localPosition =
-        //    Vector3.Lerp(transform.localPosition,
-        //    swayPos + (weaponSystem.aiming ? aimPos : hipPos),
-        //    Time.deltaTime * weaponData.adsSpeed);
 
         transform.localRotation =
             Quaternion.Slerp(transform.localRotation,
