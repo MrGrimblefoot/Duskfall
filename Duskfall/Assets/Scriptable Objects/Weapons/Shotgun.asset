@@ -21,8 +21,8 @@ MonoBehaviour:
   isPistol: 0
   magazineSize: 24
   maxAmmoStash: 144
-  currentAmmoStash: 0
-  currentBulletsInMagazine: 0
+  currentAmmoStash: 144
+  currentBulletsInMagazine: 24
   reloadTime: 2
   isAutomatic: 0
   isBurst: 1
@@ -64,8 +64,8 @@ MonoBehaviour:
   rotationalSmooth: 12
   positionalSwayIntensity: 0.02
   positionalAimSwayIntensity: 0.001
-  rotationalSwayIntensity: 8
-  rotationalAimSwayIntensity: 3
+  rotationalSwayIntensity: 30
+  rotationalAimSwayIntensity: 10
   maxSwayMovement: 0.02
   maxSwayRotation: 5
   idleBobSpeed: 1
@@ -74,7 +74,8 @@ MonoBehaviour:
   ADSRotationalBobDampening: 2.5
   travelLimit: {x: 0.025, y: 0.01, z: 0.025}
   bobLimit: {x: 0.008, y: 0.0001, z: 0.01}
-  bobRotationalMultiplier: {x: 0.6, y: 2, z: 2}
+  bobRotationalMultiplier: {x: 1, y: 1, z: 1}
+  rotationalBobResetSpeed: 15
   magnitude: 0
   roughness: 1
   fadeInTime: 0.1

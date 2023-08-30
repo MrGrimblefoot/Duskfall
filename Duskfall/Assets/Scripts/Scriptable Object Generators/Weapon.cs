@@ -163,6 +163,8 @@ public class Weapon : ScriptableObject
         public Vector3 bobLimit = Vector3.one * 0.01f;
         [Tooltip("This controls how intense the positional sway is while at hip.")]
         public Vector3 bobRotationalMultiplier;
+        [Tooltip("This controls the speed at which the gun's rotation centers when the player stops moving.")]
+        public float rotationalBobResetSpeed;
         #endregion
     #endregion
 

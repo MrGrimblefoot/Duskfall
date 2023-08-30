@@ -2173,6 +2173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5765252171054227884}
   - component: {fileID: 1236094476281999800}
+  - component: {fileID: 4365448307932014343}
   m_Layer: 6
   m_Name: SecondaryAnchor
   m_TagString: Untagged
@@ -2217,8 +2218,21 @@ MonoBehaviour:
   useRotationalSway: 1
   usePositionalBob: 1
   useRotationalBob: 1
-  hipPosObject: {fileID: 6879162488269599780}
-  aimPosObject: {fileID: 6545548459290596565}
+  rotationalSwaySpeed: 0
+--- !u!114 &4365448307932014343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794263795672786066}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8b9a2c50f13214f90c4ba8dc5a9d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useRotationalSway: 1
+  rotationalSwaySpeed: 30
 --- !u!1 &7892401112144485744
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,11 @@ public class TitleMenu : MonoBehaviour
 {
     [SerializeField] private GameObject SettingsMenu;
 
+    //private void Awake()
+    //{
+    //    Screen.SetResolution(1920,1080, true);
+    //}
+
     public void Play()
     {
         SceneManager.LoadScene(1);
@@ -20,5 +25,10 @@ public class TitleMenu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void save()
+    {
+        SaveSystem.SaveSettings(SettingsMenu.GetComponent<SettingsMenu>());
     }
 }

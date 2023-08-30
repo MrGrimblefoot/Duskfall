@@ -11,9 +11,11 @@ public class TEMP : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private bool useRotationalSway;
+    [SerializeField] private float rotationalSwaySpeed = 30f;
 
     Vector3 swayEulerRot;
     Vector3 bobEulerRot;
+    private Vector3 rotationalSwayVelocity;
 
     Vector2 moveInput;
     Vector2 lookInput;
@@ -52,21 +54,21 @@ public class TEMP : MonoBehaviour
 
         // Use Time.deltaTime to control the rotation speed
         float swayIntensity = weaponSystem.aiming ? (weaponData.rotationalAimSwayIntensity * 0.01f) : (weaponData.rotationalSwayIntensity * 0.01f);
-        Vector3 invertLook = lookInput * (swayIntensity * Time.deltaTime * (weaponSystem.aiming ? weaponData.rotationalAimSwayIntensity : weaponData.rotationalSwayIntensity));
+        Vector3 invertLook = lookInput * (swayIntensity * rotationalSwaySpeed);
         invertLook.x = Mathf.Clamp(invertLook.x, -weaponData.maxSwayRotation, weaponData.maxSwayRotation);
         invertLook.y = Mathf.Clamp(invertLook.y, -weaponData.maxSwayRotation, weaponData.maxSwayRotation);
 
-        swayEulerRot = new Vector3(invertLook.y, invertLook.x, invertLook.x);
+        // Apply damping to rotational sway
+        swayEulerRot = Vector3.SmoothDamp(swayEulerRot, new Vector3(invertLook.y, invertLook.x, invertLook.x), ref rotationalSwayVelocity, 1f / rotationalSwaySpeed);
     }
 
     void CompositePositionRotation()
     {
-        transform.localRotation =
-            Quaternion.Slerp(transform.localRotation,
-            originalRot * (Quaternion.Euler(swayEulerRot)
-            * (!weaponData.isMelee ? (weaponSystem.aiming ? Quaternion.Euler(bobEulerRot / weaponData.ADSRotationalBobDampening)
-                                                          : Quaternion.Euler(bobEulerRot))
-                                   : Quaternion.Euler(bobEulerRot))),
-            Time.deltaTime * weaponData.rotationalSmooth);
+        // Calculate the rotation change per frame based on time
+        float rotationSpeed = Time.deltaTime * weaponData.rotationalSmooth * rotationalSwaySpeed;
+
+        // Interpolate the current rotation with the target sway rotation
+        Quaternion targetRotation = originalRot * Quaternion.Euler(swayEulerRot);
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, rotationSpeed);
     }
 }

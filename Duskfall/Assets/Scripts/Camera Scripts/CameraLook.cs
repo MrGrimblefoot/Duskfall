@@ -29,11 +29,13 @@ public class CameraLook : MonoBehaviour
 
     private BasicInputActions basicInputActions;
     [HideInInspector] public Vector2 mouseInput;
+    private GameManager gameManager;
 
     private void Start()
     {
         currentLookSensitivity = lookSensitivity;
         canLook = true;
+        gameManager = FindObjectOfType<GameManager>();
 
         #region InputActions
         basicInputActions = new BasicInputActions();
@@ -65,7 +67,7 @@ public class CameraLook : MonoBehaviour
     void RotateCamera()
     {
         //storing input
-        Vector2 inputValues = new Vector2(mouseInput.x, mouseInput.y);
+        Vector2 inputValues = new Vector2(mouseInput.x, gameManager != null ? (gameManager.invertY ? -mouseInput.y : mouseInput.y) : mouseInput.y);
 
         //smoothing
         inputValues = Vector2.Scale(inputValues, new Vector2(currentLookSensitivity * smoothing, currentLookSensitivity * smoothing));
